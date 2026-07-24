@@ -1,0 +1,133 @@
+ Reset some spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-color:#f8f4ec;
+}
+
+/* /*Header */
+header{
+    background-color:darkred;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    width:100px;
+    height:auto;
+}
+
+
+
+/*.site-title h1{
+    margin: 0;
+}
+
+.site-title p{
+    margin: 5px 0 0 0;
+    color: white;
+} 
+    Navigation */
+nav{
+    margin-top:20px;
+}
+
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+/* Main Section */
+main{
+    padding:40px;
+    text-align:center;
+}
+
+main h2{
+    color:darkred;
+    margin-bottom:15px;
+}
+
+main p{
+    font-size:18px;
+}
+main img{
+    width: 80%;
+    max-width: 700px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px gray;
+}
+.button{
+    display:inline-block;
+    background-color:darkred;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+.button:hover{
+    background-color:green;
+}
+ .why-us h2{
+    color: darkred;
+    margin-bottom: 40px;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.feature-box{
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.feature-box:hover{
+    transform: translateY(-8px);
+}
+
+.feature-box h3{
+    color: darkred;
+    margin-bottom: 15px;
+}
+
+.feature-box p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer{
+    background-color:darkred;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:50px;
+}

@@ -1,10 +1,5 @@
-name = "Faith Attar"
-age = 20
-food = "Rice"
-learning_python = True
-print(f"My {name}. I am {age} years old. My favorite food is {food}  I am currently learning python ")
+instructor_name = "Alex"
+number_students = 30
+course_name = "Python"
 
-
-message = int(input("enter your age:"))
-next_year = message + 1
-print(f"Next year you will be {next_year}.")
+print(f"The instructor is {instructor_name}, there are {number_students} students in the {course_name} class!")
